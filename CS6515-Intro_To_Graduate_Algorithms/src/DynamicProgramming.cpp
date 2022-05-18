@@ -3,8 +3,6 @@
 #include <cstdlib> 
 
 using namespace std;
-template <typename T>
-
 /*
 * Notes:
 * Subproblem: L[i] = max length on{a1,a2....an}
@@ -13,6 +11,7 @@ template <typename T>
                                     1 if a[i] < a[j]
                                 } 
 */
+template <typename T>
 int DynamicProgramming<T>::LIS(vector<T> input) {
     if (input.size() == 0) {
         return 0;
@@ -41,5 +40,20 @@ int DynamicProgramming<T>::LIS(vector<T> input) {
     }
     return ret;
 }
+
+/*
+* Notes:
+* Subproblem: L[i] = max length for common s1:a1...ai | s2:b1....bj 
+* Repetitive Problem : L[i] =   { 
+                                    1 + max{L1, L2 .....Lj}, a[i] > a[j]
+                                    1 if a[i] < a[j]
+                                } 
+*/
+template <>
+int DynamicProgramming<string>::LCS(string input1, string input2) {
+
+}
+
+
 
 template class DynamicProgramming<int>;
