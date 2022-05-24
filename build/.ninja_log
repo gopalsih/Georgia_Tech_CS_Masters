@@ -1,0 +1,13 @@
+# ninja log v5
+2	58	0	C:/OMSCS/Georgia_Tech_CS_Masters/build/CMakeFiles/cmake.verify_globs	118f94616aa3dddb
+8	2543	6750697983755936	src/CMakeFiles/modern_cpp_lib.dir/DynamicProgramming.cpp.obj	930fda14284ca53e
+9	2179	6746173423842947	apps/CMakeFiles/app.dir/app.cpp.obj	7023d3add43acc87
+2929	3407	6750697992268090	apps/app.exe	ff147aaab640d63c
+2935	16654	6750698124708738	tests/testlib.exe	dfa33102003202a6
+2545	2928	6750697987641526	src/libmodern_cpp_lib.a	2bf81e1fd04cb1d3
+2	34222	6750698582216781	tests/CMakeFiles/testlib.dir/testlib.cpp.obj	f5525a2fe1ec2bc3
+4	130	0	C:/OMSCS/Georgia_Tech_CS_Masters/build/CMakeFiles/cmake.verify_globs	118f94616aa3dddb
+7	1218	6750698831793395	src/CMakeFiles/modern_cpp_lib.dir/DynamicProgramming.cpp.obj	930fda14284ca53e
+1219	1355	6750698833166547	src/libmodern_cpp_lib.a	2bf81e1fd04cb1d3
+1355	1691	6750698836490692	apps/app.exe	ff147aaab640d63c
+1360	21738	6750699036642025	tests/testlib.exe	dfa33102003202a6

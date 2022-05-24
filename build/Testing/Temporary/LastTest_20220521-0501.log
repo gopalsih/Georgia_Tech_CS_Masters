@@ -1,0 +1,59 @@
+Start testing: May 21 01:54 Eastern Daylight Time
+----------------------------------------------------------
+1/1 Testing: testlibtest
+1/1 Test: testlibtest
+Command: "C:/OMSCS/Georgia_Tech_CS_Masters/build/tests/testlib.exe"
+Directory: C:/OMSCS/Georgia_Tech_CS_Masters/build/tests
+"testlibtest" start time: May 21 01:54 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+dp[1][1]: 1
+dp[2][1]: 1
+dp[2][2]: 2
+dp[3][1]: 1
+dp[3][2]: 2
+0 0 0 0 
+0 1 1 1 
+0 1 2 2 
+0 1 2 2 
+
+dp[1][2]: 1
+dp[1][5]: 1
+dp[2][2]: 1
+dp[2][4]: 2
+dp[3][2]: 1
+dp[3][4]: 2
+dp[4][2]: 1
+dp[4][4]: 2
+dp[4][5]: 3
+dp[5][2]: 1
+dp[5][4]: 2
+dp[5][5]: 3
+dp[6][2]: 1
+dp[6][4]: 2
+dp[6][5]: 3
+dp[7][1]: 1
+dp[7][4]: 2
+dp[7][5]: 3
+dp[7][6]: 4
+0 0 0 0 0 0 0 
+0 0 1 1 1 1 1 
+0 0 1 1 2 2 2 
+0 0 1 1 2 2 2 
+0 0 1 1 2 3 3 
+0 0 1 1 2 3 3 
+0 0 1 1 2 3 3 
+0 1 1 1 2 3 4 
+
+Output for LCS is 4===============================================================================
+All tests passed (6 assertions in 2 test cases)
+
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"testlibtest" end time: May 21 01:54 Eastern Daylight Time
+"testlibtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 21 01:54 Eastern Daylight Time

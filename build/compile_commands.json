@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/OMSCS/Georgia_Tech_CS_Masters/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/OMSCS/Georgia_Tech_CS_Masters/CS6515-Intro_To_Graduate_Algorithms/src/../include -g -o src\\CMakeFiles\\modern_cpp_lib.dir\\DynamicProgramming.cpp.obj -c C:\\OMSCS\\Georgia_Tech_CS_Masters\\CS6515-Intro_To_Graduate_Algorithms\\src\\DynamicProgramming.cpp",
+  "file": "C:\\OMSCS\\Georgia_Tech_CS_Masters\\CS6515-Intro_To_Graduate_Algorithms\\src\\DynamicProgramming.cpp"
+},
+{
+  "directory": "C:/OMSCS/Georgia_Tech_CS_Masters/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/OMSCS/Georgia_Tech_CS_Masters/CS6515-Intro_To_Graduate_Algorithms/src/../include -g -std=c++17 -o apps\\CMakeFiles\\app.dir\\app.cpp.obj -c C:\\OMSCS\\Georgia_Tech_CS_Masters\\CS6515-Intro_To_Graduate_Algorithms\\apps\\app.cpp",
+  "file": "C:\\OMSCS\\Georgia_Tech_CS_Masters\\CS6515-Intro_To_Graduate_Algorithms\\apps\\app.cpp"
+},
+{
+  "directory": "C:/OMSCS/Georgia_Tech_CS_Masters/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/OMSCS/Georgia_Tech_CS_Masters/CS6515-Intro_To_Graduate_Algorithms/src/../include -IC:/OMSCS/Georgia_Tech_CS_Masters/build/_deps/catch2-src/single_include -g -std=c++17 -o tests\\CMakeFiles\\testlib.dir\\testlib.cpp.obj -c C:\\OMSCS\\Georgia_Tech_CS_Masters\\CS6515-Intro_To_Graduate_Algorithms\\tests\\testlib.cpp",
+  "file": "C:\\OMSCS\\Georgia_Tech_CS_Masters\\CS6515-Intro_To_Graduate_Algorithms\\tests\\testlib.cpp"
+}
+]

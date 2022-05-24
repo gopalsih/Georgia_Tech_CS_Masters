@@ -23,6 +23,43 @@ TEST_CASE("LIS Test", "[main]") {
     REQUIRE(returnVal == 1);
     returnVal = DP.LIS(input4);
     REQUIRE(returnVal == 0);
-    printf("Output is %d", returnVal);
+    //printf("Output for LIS is %d", returnVal);
+}
+
+TEST_CASE("LCS Test", "[main]") {
+    DynamicProgramming<string> DP;
+    int returnVal = 0;
+
+    string string1 = "abc";
+    string string2  = "abd";
+    returnVal = DP.LCS(string1,string2);
+    REQUIRE(returnVal == 2);
+
+    string string3 = "bcdbcda";
+    string string4  = "abecba";
+    returnVal = DP.LCS(string3,string4);
+    REQUIRE(returnVal == 4);
+
+    printf("Output for LCS is %d", returnVal);
+}
+
+TEST_CASE("Knapsack Test", "[main]") {
+    DynamicProgramming<int> DP;
+    int returnVal = 0;
+
+    pair<int, int> p1(10,1);
+    pair<int, int> p2(20,1);
+    pair<int, int> p3(10,2);
+
+    vector<pair<int,int>> vect;
+    vect.push_back(p1);
+    vect.push_back(p2);
+    vect.push_back(p3);
+
+    returnVal = DP.KnapSackNoRecurrence(vect, 4);
+    REQUIRE(returnVal == 40);
+
+    printf("return value is %d", returnVal);
+
 }
 #endif

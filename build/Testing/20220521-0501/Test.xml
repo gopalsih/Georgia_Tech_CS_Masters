@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-ninja"
+	BuildStamp="20220521-0501-Experimental"
+	Name="DESKTOP-NS69RV4"
+	Generator="ctest-3.23.1"
+	CompilerName="C:/MinGW/bin/g++.exe"
+	CompilerVersion="8.2.0"
+	OSName="Windows"
+	Hostname="DESKTOP-NS69RV4"
+	OSRelease=" Personal"
+	OSVersion=" (Build 19044)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="16116"
+	TotalPhysicalMemory="8058"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1800"
+	>
+	<Testing>
+		<StartDateTime>May 21 01:54 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1653112455</StartTestTime>
+		<TestList>
+			<Test>./tests/testlibtest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>testlibtest</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/testlibtest</FullName>
+			<FullCommandLine>C:\OMSCS\Georgia_Tech_CS_Masters\build\tests\testlib.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0652621</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\OMSCS\Georgia_Tech_CS_Masters\build\tests\testlib.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytkD8LwjAQxfd8iht1M38LgoO4Cg6OxaHYCoVSQy/9/l7aJl4FcTGX4XevL7n01b6UN9p7kKL2pVqzIlaRNdN10ncwF4GcagJF9YZ4QM4H5ML2Y0Biw4YpNizrhulmrcc7dWTLPJZ5LPM45nHM45inYD9cME+x9jhik4PIcaRAllDmVqVovrSa6mcrc2so3MsY/Bjg8RzgfLpCi2AO/13i2HUQGgwIvkJsatg4iDCE9tkjtD09Jn6He4UNboV4Ae5ljyA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 21 01:54 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1653112455</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -10,6 +10,7 @@ class DynamicProgramming {
 public:
     int LIS(vector<T> input);
     int LCS(string input1, string input2);
+    int KnapSackNoRecurrence(vector<pair<int,int>>, int weightLimit);
 
 };
 

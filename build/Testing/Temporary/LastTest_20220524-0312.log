@@ -1,0 +1,21 @@
+Start testing: May 24 00:31 Eastern Daylight Time
+----------------------------------------------------------
+1/1 Testing: testlibtest
+1/1 Test: testlibtest
+Command: "C:/OMSCS/Georgia_Tech_CS_Masters/build/tests/testlib.exe"
+Directory: C:/OMSCS/Georgia_Tech_CS_Masters/build/tests
+"testlibtest" start time: May 24 00:31 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Output for LCS is 4return value is 40===============================================================================
+All tests passed (7 assertions in 3 test cases)
+
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"testlibtest" end time: May 24 00:31 Eastern Daylight Time
+"testlibtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 24 00:31 Eastern Daylight Time
